@@ -1,0 +1,25 @@
+{
+  "name": "search-tree-child",
+  "version": "1.0.0",
+  "description": "this will return the child in deep nested object with parent detail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nested",
+    "object",
+    "search",
+    "child",
+    "in",
+    "tree",
+    "child",
+    "search",
+    "deep",
+    "search",
+    "deep",
+    "object"
+  ],
+  "author": "Abhinav Nehra",
+  "license": "MIT"
+}
