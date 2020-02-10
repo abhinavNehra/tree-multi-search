@@ -17,10 +17,13 @@ collection of nested object
 text which you want to search
 
 #### keyNames
-Array of keys in which you want to search
+Array of keys in which you want to search. dont forget to add the keys in double quotes
+`"name"`
 
 #### nodekeys
-Array of keys which hold the children node
+Array of keys which hold the children node.
+dont forget to add the keys in double quotes
+`"name"`
 
 #### caseSensitive
 true or false
