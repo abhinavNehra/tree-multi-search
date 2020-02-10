@@ -46,7 +46,7 @@ function searchMultiple(tree, searchText, matchedKeyArray, childrenKeyArray) {
     return selected
 }
  
-export default function(tree, searchText, keyName, childrenKey, caseSensitive) {
+module.exports = function(tree, searchText, keyName, childrenKey, caseSensitive) {
     var text = searchText
     if (caseSensitive) {
         text = searchText.toLowerCase()
