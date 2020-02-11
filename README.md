@@ -128,3 +128,14 @@ console.log('-----', JSON.stringify(Search(tree, 'sanker', ["name","text"], ["tr
 will return 
 --- []
 ```
+
+# node
+const Search = require("search-tree-child")
+
+# react 
+import search from "search-tree-child"
+
+# tree search
+# tree child search
+# tree child search react
+# tree child saerch javascript
