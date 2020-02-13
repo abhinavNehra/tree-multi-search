@@ -123,14 +123,14 @@ console.log('-----', JSON.stringify(Search(tree, 'node', ["name","text"], ["tree
 if you search for word that don't exist in the tree then it will return blank array
 
 like 
-console.log('-----', JSON.stringify(Search(tree, 'sanker', ["name","text"], ["tree", "node"], true)))
+console.log('-----', JSON.stringify(search(tree, 'sanker', ["name","text"], ["tree", "node"], true)))
 
 will return 
 --- []
 ```
 
 # node
-const search = require("search-tree-child")
+const search = require('search-tree-child').search
 
 # react 
 import {search} from 'search-tree-child'
