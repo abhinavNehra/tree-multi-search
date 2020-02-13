@@ -130,10 +130,10 @@ will return
 ```
 
 # node
-const Search = require("search-tree-child")
+const search = require("search-tree-child")
 
 # react 
-import search from "search-tree-child"
+import {search} from 'search-tree-child'
 
 # tree search
 # tree child search
