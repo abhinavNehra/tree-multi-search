@@ -46,10 +46,14 @@ function searchMultiple(tree, searchText, matchedKeyArray, childrenKeyArray) {
     return selected
 }
  
-export function search(tree, searchText, keyName, childrenKey, caseSensitive) {
+function search(tree, searchText, keyName, childrenKey, caseSensitive) {
     var text = searchText
     if (caseSensitive) {
         text = searchText.toLowerCase()
     }
     return searchMultiple(tree, text, keyName, childrenKey)    
+}
+
+export  {
+    search
 }
