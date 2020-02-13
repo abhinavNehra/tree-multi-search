@@ -54,6 +54,11 @@ function search(tree, searchText, keyName, childrenKey, caseSensitive) {
     return searchMultiple(tree, text, keyName, childrenKey)    
 }
 
-export  {
-    search
-}
+(function () {
+
+    if (typeof module !== 'undefined' && module.exports) {
+            module.exports = search
+    } else {
+            export default search
+    }
+})()
