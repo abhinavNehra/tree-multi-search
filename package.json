@@ -1,6 +1,6 @@
 {
   "name": "search-tree-child",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "this will return the child in deep nested object with parent detail",
   "main": "index.js",
   "type": "module",
